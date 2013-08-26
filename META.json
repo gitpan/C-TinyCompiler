@@ -13,24 +13,31 @@
       "version" : "2"
    },
    "name" : "C-TinyCompiler",
+   "no_index" : {
+      "file" : [
+         "README.pod"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Alien::TinyCC" : "0",
+            "Alien::TinyCC" : "0.03",
             "ExtUtils::CBuilder" : "0",
-            "Test::More" : "0.88"
+            "Test::Exception" : "0",
+            "Test::More" : "0.88",
+            "Test::Warn" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Alien::TinyCC" : "0",
+            "Alien::TinyCC" : "0.03",
             "Devel::PPPort" : "0",
             "Module::Build" : "0.40"
          }
       },
       "runtime" : {
          "requires" : {
-            "Alien::TinyCC" : "0",
+            "Alien::TinyCC" : "0.03",
             "perl" : "5.01"
          }
       }
@@ -38,11 +45,11 @@
    "provides" : {
       "C::TinyCompiler" : {
          "file" : "lib/C/TinyCompiler.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "C::TinyCompiler::Callable" : {
          "file" : "lib/C/TinyCompiler/Callable.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "C::TinyCompiler::Perl" : {
          "file" : "lib/C/TinyCompiler/Perl.pm",
@@ -50,15 +57,15 @@
       },
       "C::TinyCompiler::Perl::AV" : {
          "file" : "lib/C/TinyCompiler/Perl/AV.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "C::TinyCompiler::Perl::Croak" : {
          "file" : "lib/C/TinyCompiler/Perl/Croak.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "C::TinyCompiler::Perl::SV" : {
          "file" : "lib/C/TinyCompiler/Perl/SV.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "C::TinyCompiler::Perl::Typedefs" : {
          "file" : "lib/C/TinyCompiler/Perl/Typedefs.pm",
@@ -75,9 +82,15 @@
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/run4flat/perl-TCC/issues"
+      },
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "url" : "http://github.com/run4flat/perl-TCC"
+      }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
