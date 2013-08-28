@@ -4,7 +4,7 @@
       "David Mertens <dcmertens.perl@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -45,11 +45,11 @@
    "provides" : {
       "C::TinyCompiler" : {
          "file" : "lib/C/TinyCompiler.pm",
-         "version" : "0.03"
+         "version" : "0.03_01"
       },
       "C::TinyCompiler::Callable" : {
          "file" : "lib/C/TinyCompiler/Callable.pm",
-         "version" : "0.03"
+         "version" : "0.03_01"
       },
       "C::TinyCompiler::Perl" : {
          "file" : "lib/C/TinyCompiler/Perl.pm",
@@ -57,15 +57,15 @@
       },
       "C::TinyCompiler::Perl::AV" : {
          "file" : "lib/C/TinyCompiler/Perl/AV.pm",
-         "version" : "0.03"
+         "version" : "0.03_01"
       },
       "C::TinyCompiler::Perl::Croak" : {
          "file" : "lib/C/TinyCompiler/Perl/Croak.pm",
-         "version" : "0.03"
+         "version" : "0.03_01"
       },
       "C::TinyCompiler::Perl::SV" : {
          "file" : "lib/C/TinyCompiler/Perl/SV.pm",
-         "version" : "0.03"
+         "version" : "0.03_01"
       },
       "C::TinyCompiler::Perl::Typedefs" : {
          "file" : "lib/C/TinyCompiler/Perl/Typedefs.pm",
@@ -80,7 +80,7 @@
          "version" : 0
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "web" : "http://github.com/run4flat/perl-TCC/issues"
@@ -92,5 +92,5 @@
          "url" : "http://github.com/run4flat/perl-TCC"
       }
    },
-   "version" : "0.03"
+   "version" : "0.03_01"
 }
