@@ -3,17 +3,17 @@ abstract: 'Full C JIT compiling using the Tiny C Compiler'
 author:
   - 'David Mertens <dcmertens.perl@gmail.com>'
 build_requires:
-  Alien::TinyCC: 0.03
+  Alien::TinyCC: 0.05
   ExtUtils::CBuilder: 0
   Test::Exception: 0
   Test::More: 0.88
   Test::Warn: 0
 configure_requires:
-  Alien::TinyCC: 0.03
+  Alien::TinyCC: 0.05
   Devel::PPPort: 0
   Module::Build: 0.40
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,22 +25,22 @@ no_index:
 provides:
   C::TinyCompiler:
     file: lib/C/TinyCompiler.pm
-    version: 0.03_01
+    version: 0.04
   C::TinyCompiler::Callable:
     file: lib/C/TinyCompiler/Callable.pm
-    version: 0.03_01
+    version: 0.04
   C::TinyCompiler::Perl:
     file: lib/C/TinyCompiler/Perl.pm
     version: 0
   C::TinyCompiler::Perl::AV:
     file: lib/C/TinyCompiler/Perl/AV.pm
-    version: 0.03_01
+    version: 0.04
   C::TinyCompiler::Perl::Croak:
     file: lib/C/TinyCompiler/Perl/Croak.pm
-    version: 0.03_01
+    version: 0.04
   C::TinyCompiler::Perl::SV:
     file: lib/C/TinyCompiler/Perl/SV.pm
-    version: 0.03_01
+    version: 0.04
   C::TinyCompiler::Perl::Typedefs:
     file: lib/C/TinyCompiler/Perl/Typedefs.pm
     version: 0
@@ -51,10 +51,10 @@ provides:
     file: lib/C/TinyCompiler/package.pm
     version: 0
 requires:
-  Alien::TinyCC: 0.03
+  Alien::TinyCC: 0.05
   perl: 5.01
 resources:
   bugtracker: http://github.com/run4flat/perl-TCC/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/run4flat/perl-TCC
-version: 0.03_01
+version: 0.04
